@@ -1,0 +1,9 @@
+{
+	"dependencies": {
+		"@wordpress/scripts": "file:./gutenberg-local-packages/packages/scripts"
+	},
+	"scripts": {
+		"build": "wp-scripts build",
+		"copy-local-gutenberg-packages": "cp -r ../gutenberg ./gutenberg-local-packages"
+	}
+}
